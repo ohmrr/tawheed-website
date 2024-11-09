@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Snippet } from "svelte";
 
-  let { width = 1200, bgColorClass = null, children }: { width: number; bgColorClass: string | null, children: Snippet } =
+  let { width = 1200, bgColorClass = null, children }: { width?: number; bgColorClass?: string | null, children: Snippet } =
     $props();
 </script>
 
