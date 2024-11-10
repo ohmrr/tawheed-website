@@ -1,5 +1,9 @@
 <script lang="ts">
-  import Navigation from '$lib/components/Navigation.svelte';
+  import Container from '$lib/components/Container.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+  import Header from '$lib/components/Header.svelte';
 </script>
 
-<Navigation />
+<Header />
+
+<Footer />
