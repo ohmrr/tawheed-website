@@ -46,14 +46,14 @@
             <a
               href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
               aria-label="Donate now"
-              class="rounded-lg border bg-[#24418C] p-3 text-lg font-semibold text-gray-100 shadow-lg transition duration-300 ease-in-out hover:bg-[#1A347A]">
+              class="rounded-lg border-2 border-[#24418C] bg-[#24418C] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#24418C]/20 transition duration-300 ease-in-out hover:bg-[#1A347A]">
               Donate Now
             </a>
 
             <a
               href="https://www.masjidaltawheed.com/newmasjid/"
               aria-label="Learn More"
-              class="rounded-lg border bg-[#22A34A] p-3 text-lg font-semibold text-gray-100 shadow-lg transition duration-300 ease-in-out hover:bg-[#1A8A3A]">
+              class="rounded-lg border-2 border-[#22A34A] bg-[#22A34A] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#22A34A]/20 transition duration-300 ease-in-out hover:bg-[#1A8A3A]">
               Learn More
             </a>
           </div>
@@ -63,7 +63,7 @@
           <img
             src="/images/masjid1.webp"
             alt="Proposed masjid expansion"
-            class="h-full w-full max-w-lg rounded-lg object-cover shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105" />
+            class="h-full w-full max-w-lg cursor-pointer rounded-lg object-cover shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105" />
         </div>
       </div>
     </div>
