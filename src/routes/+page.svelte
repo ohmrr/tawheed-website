@@ -4,6 +4,4 @@
   import Header from '$lib/components/Header.svelte';
 </script>
 
-<Header />
-
-<Footer />
+<h1>hello this is a test component</h1>
