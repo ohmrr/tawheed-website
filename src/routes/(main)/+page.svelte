@@ -5,9 +5,9 @@
 <Container bgColorClass="bg-white">
   <div class="flex flex-col items-center justify-center py-12 md:py-16">
     <div class="flex w-full flex-col items-center justify-center px-4 md:px-12 lg:px-16">
-      <h1 class="mb-8 text-center text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
+      <h2 class="mb-8 text-center text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
         Fund Masjid Al-Tawheed
-      </h1>
+      </h2>
 
       <div class="mb-8 flex w-full justify-center sm:w-2/3 lg:w-3/5">
         <img
