@@ -34,11 +34,11 @@
     <div class="mt-12 flex w-full flex-col items-center justify-center px-4 md:px-12 lg:px-16">
       <div class="flex w-full flex-col items-center justify-between gap-8 lg:flex-row">
         <div class="flex flex-col text-center lg:text-left">
-          <h1 class="mb-6 text-4xl font-bold leading-tight text-gray-100 md:text-5xl lg:text-6xl">
+          <h1 class="mb-8 text-4xl font-bold leading-tight text-gray-100 md:text-5xl lg:text-6xl">
             Masjid<br />Al-Tawheed
           </h1>
 
-          <p class="mb-6 text-xl font-normal text-gray-200 md:text-2xl">
+          <p class="mb-8 text-xl font-normal text-gray-200 md:text-2xl">
             Help us in funding the expansion project for Masjid Al-Tawheed in Elk Grove.
           </p>
 
