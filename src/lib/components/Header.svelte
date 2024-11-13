@@ -4,9 +4,9 @@
   import FaFacebookLogo from 'svelte-icons/fa/FaFacebookSquare.svelte';
 </script>
 
-<Container bgColorClass="bg-gradient-to-r from-[#131313] via-[#161616] to-[#252525]">
-  <div class="flex flex-col items-center justify-center py-6 md:py-10">
-    <div class="flex w-full items-center justify-between px-4 md:px-12 lg:px-16">
+<Container bgColorClass="bg-[#131313]">
+  <div class="flex flex-col items-center justify-center py-6 md:py-10 md:pb-16 lg:pb-20">
+    <nav class="flex w-full items-center justify-between px-4 md:px-12 lg:px-16">
       <a href="/" aria-label="Website home page">
         <img
           src="images/tawheed.svg"
@@ -29,7 +29,7 @@
           <FaFacebookLogo />
         </a>
       </div>
-    </div>
+    </nav>
 
     <div class="mt-12 flex w-full flex-col items-center justify-center px-4 md:px-12 lg:px-16">
       <div class="flex w-full flex-col items-center justify-between gap-8 lg:flex-row">
@@ -42,18 +42,18 @@
             Help us in funding the expansion project for Masjid Al-Tawheed in Elk Grove.
           </p>
 
-          <div class="flex flex-col gap-6 sm:flex-row sm:gap-8">
+          <div class="flex flex-col gap-6 sm:flex-row justify-center lg:justify-start sm:gap-8">
             <a
               href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
               aria-label="Donate now"
-              class="rounded-lg border-2 border-[#24418C] bg-[#24418C] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#24418C]/20 transition duration-300 ease-in-out hover:bg-[#1A347A]">
+              class="rounded-lg border-2 border-[#24418C] bg-[#24418C] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#24418C]/20 transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#1A347A]">
               Donate Now
             </a>
 
             <a
               href="https://www.masjidaltawheed.com/newmasjid/"
               aria-label="Learn More"
-              class="rounded-lg border-2 border-[#22A34A] bg-[#22A34A] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#22A34A]/20 transition duration-300 ease-in-out hover:bg-[#1A8A3A]">
+              class="rounded-lg border-2 border-[#22A34A] bg-[#22A34A] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#22A34A]/20 transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#1A8A3A]">
               Learn More
             </a>
           </div>

@@ -7,7 +7,8 @@ export default {
     extend: {
       fontFamily: {
         header: ['Poppins', 'sans-serif'],
-        sans: ['Open Sans', 'sans-serif']
+        sans: ['Open Sans', 'sans-serif'],
+        arabic: ['Amiri', 'serif']
       }
     }
   },
