@@ -5,8 +5,8 @@
 </script>
 
 <Container bgColorClass="bg-[#131313]">
-  <div class="flex flex-col items-center justify-center py-6 md:py-10 md:pb-16 lg:pb-20">
-    <nav class="flex w-full items-center justify-between px-4 md:px-12 lg:px-16">
+  <div class="flex flex-col items-center justify-center py-4 md:py-8 md:pb-16 lg:pb-20">
+    <nav class="flex w-full items-center justify-between">
       <a href="/" aria-label="Website home page">
         <img
           src="images/tawheed.svg"
@@ -31,7 +31,7 @@
       </div>
     </nav>
 
-    <div class="mt-12 flex w-full flex-col items-center justify-center px-4 md:px-12 lg:px-16">
+    <div class="mt-12 flex w-full flex-col items-center justify-center">
       <div class="flex w-full flex-col items-center justify-between gap-8 lg:flex-row">
         <div class="flex flex-col text-center lg:text-left">
           <h1 class="mb-8 text-4xl font-bold leading-tight text-gray-100 md:text-5xl lg:text-6xl">
@@ -63,7 +63,7 @@
           <img
             src="/images/masjid1.webp"
             alt="Proposed masjid expansion"
-            class="h-full w-full max-w-lg cursor-pointer rounded-lg object-cover shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105" />
+            class="h-full w-full max-w-lg rounded-lg object-cover shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105" />
         </div>
       </div>
     </div>
