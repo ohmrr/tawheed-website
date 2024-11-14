@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div class="mt-8 flex w-full justify-center sm:w-2/3 lg:mt-0 lg:w-4/5">
+        <div class="mt-8 flex w-full justify-center sm:w-2/3 lg:mt-0 lg:w-3/5">
           <img
             src="/images/masjid1.webp"
             alt="Proposed masjid expansion"
