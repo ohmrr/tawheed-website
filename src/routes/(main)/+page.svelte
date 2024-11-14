@@ -1,5 +1,6 @@
 <script lang="ts">
   import Container from '$lib/components/Container.svelte';
+  import ProgressBar from '$lib/components/ProgressBar.svelte';
 </script>
 
 <Container bgColorClass="bg-white">
@@ -45,6 +46,8 @@
           compassion. Your donation today can transform lives and build a stronger future.
         </p>
       </div>
+
+      <ProgressBar />
     </div>
   </div>
 </Container>
