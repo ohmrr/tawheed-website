@@ -4,7 +4,7 @@
   import FaFacebookLogo from 'svelte-icons/fa/FaFacebookSquare.svelte';
 </script>
 
-<Container bgColorClass="bg-[#131313]">
+<Container bgColorClass="bg-charcoal">
   <div class="flex flex-col items-center justify-center py-4 md:py-8 md:pb-16 lg:pb-20">
     <nav class="flex w-full items-center justify-between">
       <a href="/" aria-label="Website home page">
@@ -46,20 +46,20 @@
             <a
               href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
               aria-label="Donate now"
-              class="rounded-lg border-2 border-[#24418C] bg-[#24418C] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#24418C]/20 transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#1A347A]">
+              class="rounded-lg border-2 border-azure bg-azure px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-azure/20 transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-azure-dark">
               Donate Now
             </a>
 
             <a
               href="https://www.masjidaltawheed.com/newmasjid/"
               aria-label="Learn More"
-              class="rounded-lg border-2 border-[#22A34A] bg-[#22A34A] px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-[#22A34A]/20 transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#1A8A3A]">
+              class="rounded-lg border-2 border-jade bg-jade px-4 py-2 text-lg font-semibold text-gray-100 shadow-lg shadow-jade/20 transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-jade-dark">
               Learn More
             </a>
           </div>
         </div>
 
-        <div class="mt-8 flex w-full justify-center sm:w-2/3 lg:mt-0 lg:w-3/5">
+        <div class="mt-8 flex w-full justify-center sm:w-2/3 lg:mt-0 lg:w-4/5">
           <img
             src="/images/masjid1.webp"
             alt="Proposed masjid expansion"
