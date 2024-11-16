@@ -3,7 +3,7 @@
 </script>
 
 <Navigation />
-<div class="relative flex h-[450px] w-full flex-col bg-charcoal md:h-[600px]">
+<header class="relative flex h-[450px] w-full flex-col bg-charcoal md:h-[600px]">
   <div class="absolute inset-0">
     <video
       class="h-full w-full object-cover"
@@ -27,4 +27,4 @@
         >Donate Now</a>
     </div>
   </div>
-</div>
+</header>
