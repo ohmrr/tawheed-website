@@ -11,7 +11,7 @@
       autoplay
       muted
       loop
-      playsinline></video>
+      playsinline tabindex="-1"></video>
   </div>
 
   <div
