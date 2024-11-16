@@ -15,7 +15,7 @@ button {
   font-family: theme('fontFamily.sans');
 }
 
-html,
+/* html,
 body {
   @apply bg-[#131313] min-h-screen;
-}
+} */

@@ -4,4 +4,3 @@
   let { imageUrl, altText, showModal }: { imageUrl: string; altText: string; showModal: boolean } =
     $props();
 </script>
-

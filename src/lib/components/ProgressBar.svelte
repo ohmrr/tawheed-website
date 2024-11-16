@@ -35,7 +35,9 @@
   <p class="text-sm">${current.toLocaleString()} / ${max.toLocaleString()}</p>
 </div>
 
-<div bind:this={progressBar} class="mt-4 w-full md:w-4/5 overflow-hidden rounded-md bg-gray-200 shadow-md">
+<div
+  bind:this={progressBar}
+  class="mt-4 w-full overflow-hidden rounded-md bg-gray-200 shadow-md md:w-4/5">
   <div
     class="h-3 bg-azure"
     role="progressbar"
