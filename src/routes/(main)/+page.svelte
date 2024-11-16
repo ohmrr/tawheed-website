@@ -19,8 +19,7 @@
 
       <div class="flex w-full flex-col items-center justify-center gap-y-8">
         <div class="rounded-lg bg-gray-100 p-6 shadow-md">
-          <h3
-            class="mb-6 text-center font-arabic text-2xl font-semibold text-gray-900 md:text-3xl">
+          <h3 class="mb-6 text-center font-arabic text-2xl font-semibold text-gray-900 md:text-3xl">
             ‏مَنْ بَنَى مَسْجِدًا لِلَّهِ كَمَفْحَصِ قَطَاةٍ أَوْ أَصْغَرَ بَنَى اللَّهُ لَهُ
             بَيْتًا فِي الْجَنَّةِ
           </h3>
@@ -32,7 +31,7 @@
           </p>
         </div>
 
-        <p class="text-center md:text-left text-gray-900 md:text-lg">
+        <p class="text-center text-gray-900 md:text-left md:text-lg">
           The growth of our community has led to a need for a space that can accommodate all of our
           needs, be it spiritual, educational, communal, or even recreational. By investing in this
           expansion, you're investing in a legacy of faith and kindness. Every prayer, smile, and
@@ -40,7 +39,7 @@
           dollar brings us one step closer to creating this sacred place for our community.
         </p>
 
-        <p class="text-center md:text-left font-semibold text-gray-900 md:text-lg">
+        <p class="text-center font-semibold text-gray-900 md:text-left md:text-lg">
           Let's unite to make Masjid Al-Tawheed a home for all. Together, we can provide a welcoming
           sanctuary that will support our community's needs and inspire growth, connection, and
           compassion. Your donation today can transform lives and build a stronger future.

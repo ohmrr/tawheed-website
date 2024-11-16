@@ -6,7 +6,7 @@
     bgColorClass,
     padding = 20,
     children
-  }: { width?: number; bgColorClass?: string; padding?: number, children?: Snippet } = $props();
+  }: { width?: number; bgColorClass?: string; padding?: number; children?: Snippet } = $props();
 </script>
 
 <div class="h-full {bgColorClass}" style:padding="0 {padding}px">
