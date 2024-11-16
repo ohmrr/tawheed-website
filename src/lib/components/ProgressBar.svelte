@@ -31,7 +31,7 @@
 </script>
 
 <div class="mt-6 text-center">
-  <p class="text-lg font-semibold">Donation Progress</p>
+  <p class="text-lg font-semibold" id="donation-progress">Donation Progress</p>
   <p class="text-sm">${current.toLocaleString()} / ${max.toLocaleString()}</p>
 </div>
 
@@ -41,6 +41,7 @@
   <div
     class="h-3 bg-azure"
     role="progressbar"
+    aria-labelledby="donation-progress"
     style="width: {$animatedProgress}%"
     aria-valuemin="0"
     aria-valuemax={max}
