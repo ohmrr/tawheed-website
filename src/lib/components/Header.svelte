@@ -16,10 +16,10 @@
   </div>
 
   <div
-    class="absolute inset-0 z-10 flex flex-col items-center justify-center space-y-4 bg-black bg-opacity-10 text-white">
+    class="absolute inset-0 z-10 flex flex-col items-center justify-center space-y-4 bg-black bg-opacity-30 text-white">
     <div class="flex flex-col items-center justify-center space-y-4 text-center">
       <h1 class="text-3xl font-bold md:text-6xl">Masjid Al-Tawheed</h1>
-      <p class="text-xl md:text-2xl">
+      <p class="text-xl md:text-2xl px-8">
         Help us in funding the expansion project for Masjid Al-Tawheed in Elk Grove.
       </p>
       <a

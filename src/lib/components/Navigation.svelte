@@ -18,14 +18,14 @@
         <a
           href="https://www.instagram.com/masjidtawheedeg/"
           aria-label="Masjid Al-Tawheed Instagram account"
-          class="h-[48px] w-[48px] text-gray-100 transition duration-300 ease-in-out hover:text-white">
+          class="h-[48px] w-[48px] text-jade transition-all duration-300 ease-in-out hover:text-jade-dark">
           <FaInstagramLogo />
         </a>
 
         <a
           href="https://www.facebook.com/EG.Tawheed/"
           aria-label="Masjid Al-Tawheed Facebook account"
-          class="h-[48px] w-[48px] text-gray-100 transition duration-300 ease-in-out hover:text-white">
+          class="h-[48px] w-[48px] text-azure transition-all duration-300 ease-in-out hover:text-azure-dark">
           <FaFacebookLogo />
         </a>
       </div>
