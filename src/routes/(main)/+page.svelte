@@ -1,6 +1,7 @@
 <script lang="ts">
   import Container from '$lib/components/Container.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
+  import TawheedLogo from '$lib/assets/tawheed/tawheed.png';
 </script>
 
 <Container bgColorClass="bg-white">
@@ -12,7 +13,7 @@
 
       <div class="mb-8 flex w-full justify-center sm:w-2/3 lg:w-3/5">
         <img
-          src="/media/tawheed.png"
+          src={TawheedLogo}
           alt="Masjid Al-Tawheed logo"
           class="h-full w-full max-w-lg rounded-lg object-cover" />
       </div>

@@ -1,5 +1,6 @@
 <script lang="ts">
-  import Navigation from './Navigation.svelte';
+  import Navigation from './navbar/Navigation.svelte';
+  import BannerVideo from '$lib/assets/tawheed/masjid.mp4';
 </script>
 
 <Navigation />
@@ -7,7 +8,7 @@
   <div class="absolute inset-0">
     <video
       class="h-full w-full object-cover"
-      src="/media/masjid.mp4"
+      src={BannerVideo}
       autoplay
       muted
       loop
