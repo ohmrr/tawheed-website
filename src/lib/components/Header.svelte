@@ -7,11 +7,12 @@
   <div class="absolute inset-0">
     <video
       class="h-full w-full object-cover"
-      src="/media/construction.mp4"
+      src="/media/masjid.mp4"
       autoplay
       muted
       loop
-      playsinline tabindex="-1"></video>
+      playsinline
+      tabindex="-1"></video>
   </div>
 
   <div
