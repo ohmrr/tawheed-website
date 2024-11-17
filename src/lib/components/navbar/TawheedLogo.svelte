@@ -6,5 +6,5 @@
   <img
     src={TawheedSVG}
     alt="Tawheed Logo"
-    class="h-[48px] w-[48px] transition duration-300 ease-in-out hover:brightness-125" />
+    class="w-14 h-14 transition duration-300 ease-in-out hover:brightness-125" />
 </a>
