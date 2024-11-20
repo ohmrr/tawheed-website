@@ -26,7 +26,7 @@
   }
 </script>
 
-<div class="grid grid-cols-2 gap-4 md:grid-cols-3">
+<div class="grid grid-cols-2 gap-2 md:grid-cols-3">
   {#each images as image}
     <div
       class="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg">
