@@ -1,6 +1,7 @@
 <script lang="ts">
-  import Navigation from './navbar/Navigation.svelte';
   import BannerVideo from '$lib/assets/tawheed/masjid.mp4';
+  import Button from './Button.svelte';
+  import Navigation from './navbar/Navigation.svelte';
 </script>
 
 <Navigation />
@@ -17,16 +18,16 @@
   </div>
 
   <div
-    class="absolute inset-0 z-10 flex flex-col items-center justify-center space-y-4 bg-black bg-opacity-30 text-white">
+    class="absolute inset-0 z-10 flex flex-col items-center justify-center space-y-4 bg-black bg-opacity-30">
     <div class="flex flex-col items-center justify-center space-y-4 text-center">
-      <h1 class="text-3xl font-bold md:text-6xl">Masjid Al-Tawheed</h1>
-      <p class="text-xl md:text-2xl px-8 leading-relaxed">
+      <h1 class="text-3xl font-bold md:text-6xl text-gray-100">Masjid Al-Tawheed</h1>
+      <p class="px-8 text-xl leading-relaxed md:text-2xl text-gray-100">
         Help us in funding the expansion project for Masjid Al-Tawheed in Elk Grove.
       </p>
-      <a
-        class="rounded-lg border-2 border-jade bg-jade px-4 py-2 font-semibold shadow-md transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-jade-dark"
+      <Button
+        color="jade"
         href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-        >Donate Now</a>
+        text="Donate Now" />
     </div>
   </div>
 </header>
