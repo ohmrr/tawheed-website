@@ -2,6 +2,7 @@
   import MasjidExpansion from '$lib/assets/tawheed/masjid1.webp';
   import Button from '$lib/components/Button.svelte';
   import Container from '$lib/components/Container.svelte';
+  import ImageGrid from '$lib/components/images/ImageGrid.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
 </script>
 
@@ -58,6 +59,14 @@
       </div>
 
       <ProgressBar />
+    </div>
+
+    <div class="mt-12 flex flex-col gap-y-4">
+      <h2 class="text-center text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
+        Our Community
+      </h2>
+
+      <ImageGrid />
     </div>
   </div>
 </Container>
