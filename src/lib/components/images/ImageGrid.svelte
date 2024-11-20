@@ -28,8 +28,7 @@
 
 <div class="grid grid-cols-2 gap-2 md:grid-cols-3">
   {#each images as image}
-    <div
-      class="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg">
+    <div class="group relative cursor-pointer overflow-hidden rounded-lg shadow-lg">
       <img
         src={image.src}
         alt={image.alt}
@@ -50,13 +49,10 @@
         src={currentImage?.src}
         alt={currentImage?.alt}
         class="h-auto max-h-[80vh] w-full object-contain" />
-      <p class="p-4 text-center text-gray-700">{currentImage?.alt}</p>
       <button
-        class="absolute right-4 top-4 text-gray-500 hover:text-gray-800"
+        class="absolute right-4 bg-gray-50 py-0.5 px-1 shadow-md rounded-lg top-4 text-gray-800 hover:text-gray-900 font-bold text-xl"
         on:click={closeModal}>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-6 w-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-        </svg>
+        &#10005;
       </button>
     </div>
   </div>
