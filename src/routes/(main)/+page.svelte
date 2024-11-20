@@ -6,7 +6,7 @@
 </script>
 
 <Container bgColorClass="bg-white">
-  <div class="mt-16 md:mt-24 lg:mt-32 flex w-full flex-col items-center justify-center">
+  <div class="mt-16 flex w-full flex-col items-center justify-center md:mt-24 lg:mt-32">
     <h2 class="text-center text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
       Help Create a Thriving Muslim Community
     </h2>
@@ -32,8 +32,8 @@
       </div>
     </div>
 
-    <div class="mt-8 md:mt-16 flex w-full flex-col items-center gap-y-8 md:w-3/4">
-      <p class="text-center text-base text-gray-900 tracking-wide md:text-xl">
+    <div class="mt-8 flex w-full flex-col items-center gap-y-8 md:mt-16 md:w-3/4">
+      <p class="text-center text-base tracking-wide text-gray-900 md:text-xl">
         The growth of our community has led to a need for a space that can accommodate all of our
         needs, be it spiritual, educational, communal, or even recreational. By investing in this
         expansion, you're investing in a legacy of faith and kindness. Every prayer, smile, and
@@ -41,16 +41,15 @@
         brings us one step closer to creating this sacred place for our community.
       </p>
 
-      <p class="text-center text-base tracking-wide font-semibold text-gray-900 md:text-xl">
+      <p class="text-center text-base font-semibold tracking-wide text-gray-900 md:text-xl">
         Let's unite to make Masjid Al-Tawheed a home for all. Together, we can provide a welcoming
         sanctuary that will support our community's needs and inspire growth, connection, and
         compassion. Your donation today can transform lives and build a stronger future.
       </p>
     </div>
 
-    <div class="mt-12 md:mt-16 flex w-full flex-col items-center justify-center">
-      <div
-        class="flex flex-row items-center mb-12 justify-center gap-x-4 lg:gap-x-8">
+    <div class="mt-12 flex w-full flex-col items-center justify-center md:mt-16">
+      <div class="mb-12 flex flex-row items-center justify-center gap-x-4 lg:gap-x-8">
         <Button
           color="jade"
           href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
