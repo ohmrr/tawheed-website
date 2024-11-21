@@ -1,6 +1,6 @@
 import type { PageLoad } from './$types';
 
-const imageModules = import.meta.glob('$lib/assets/community/**/*.{jpg,jpeg,png,webp}', { eager: true, query: 'url' });
+const imageModules = import.meta.glob('$lib/assets/community/**/*.{jpg,jpeg,png,webp}', { query: '?url', import: 'default', eager: true });
 const images = Object.keys(imageModules);
 
 const alts = images.map(path => {
