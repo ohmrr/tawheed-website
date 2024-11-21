@@ -1,7 +1,14 @@
 <script lang="ts">
   import BannerVideo from '$lib/assets/tawheed/masjid.mp4';
+  import { onMount } from 'svelte';
   import Button from './Button.svelte';
   import Navigation from './navbar/Navigation.svelte';
+
+  let VideoElement: HTMLVideoElement;
+
+  // onMount(() => {
+    
+  // })
 </script>
 
 <Navigation />
@@ -11,6 +18,7 @@
       class="h-full w-full object-cover"
       src={BannerVideo}
       autoplay
+      bind:this={VideoElement}
       muted
       loop
       playsinline
