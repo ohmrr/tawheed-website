@@ -1,29 +1,10 @@
 <script lang="ts">
-  import { loadImages } from '$lib/utils/loadImage';
-  import { onMount } from 'svelte';
+  let { images = [] }: { images: Image[] } = $props();
 
   interface Image {
     src: string;
     alt: string;
   }
-
-  let images: Image[] = [];
-  // let showModal = false;
-  // let currentImage: Image | null = null;
-
-  onMount(() => {
-    images = loadImages();
-  });
-
-  // function openModal(image: Image) {
-  //   currentImage = image;
-  //   showModal = true;
-  // }
-
-  // function closeModal() {
-  //   showModal = false;
-  //   currentImage = null;
-  // }
 </script>
 
 <div class="grid grid-cols-2 gap-2 md:grid-cols-3">

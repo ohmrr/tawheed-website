@@ -1,4 +1,7 @@
 <script lang="ts">
+  import type { PageData } from './$types';
+  let { data }: { data: PageData } = $props();
+
   import MasjidExpansion from '$lib/assets/tawheed/masjid1.webp';
   import Button from '$lib/components/Button.svelte';
   import Container from '$lib/components/Container.svelte';
@@ -61,12 +64,16 @@
       <ProgressBar />
     </div>
 
-    <div class="mt-12 md:mt-16 flex flex-col gap-y-4 md:gap-y-8">
+    <div class="mt-12 flex flex-col gap-y-4 md:mt-16 md:gap-y-8">
       <h2 class="text-center text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
         Our Community
       </h2>
 
-      <ImageGrid />
+      <ImageGrid
+        images={data.images.map((image, index) => ({
+          src: image,
+          alt: data.descriptions[index]
+        }))} />
     </div>
   </div>
 </Container>
