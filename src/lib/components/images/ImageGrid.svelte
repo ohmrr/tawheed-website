@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { importImages } from '$lib/utils/loadImage';
+  import { loadImages } from '$lib/utils/loadImage';
   import { onMount } from 'svelte';
 
   interface Image {
@@ -12,7 +12,7 @@
   // let currentImage: Image | null = null;
 
   onMount(() => {
-    images = importImages();
+    images = loadImages();
   });
 
   // function openModal(image: Image) {
