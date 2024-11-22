@@ -6,6 +6,7 @@
 <a
   href="https://www.facebook.com/EG.Tawheed/"
   aria-label="Masjid Al-Tawheed Facebook account"
-  class="h-12 w-12 text-blue-500 transition-all duration-300 ease-in-out hover:text-blue-600">
+  class="h-12 w-12 text-blue-600 transition-all duration-300 ease-in-out
+  hover:text-blue-700">
   <FaFacebookLogo />
 </a>

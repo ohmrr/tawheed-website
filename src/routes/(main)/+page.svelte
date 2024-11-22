@@ -21,6 +21,8 @@
       <img
         class="rounded-lg object-contain shadow-md"
         src={MasjidExpansion}
+        width="768"
+        height="432"
         alt="Render of the proposed masjid expansion" />
 
       <div

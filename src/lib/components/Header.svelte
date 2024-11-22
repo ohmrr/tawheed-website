@@ -9,6 +9,8 @@
     <video
       class="h-full w-full object-cover"
       src={BannerVideo}
+      width="1280"
+      height="720"
       autoplay
       muted
       loop
