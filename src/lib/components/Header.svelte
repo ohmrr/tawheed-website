@@ -1,14 +1,6 @@
 <script lang="ts">
   import BannerVideo from '$lib/assets/tawheed/masjid.mp4';
-  import { onMount } from 'svelte';
-  import Button from './Button.svelte';
   import Navigation from './navbar/Navigation.svelte';
-
-  let VideoElement: HTMLVideoElement;
-
-  // onMount(() => {
-
-  // })
 </script>
 
 <Navigation />
@@ -18,7 +10,6 @@
       class="h-full w-full object-cover"
       src={BannerVideo}
       autoplay
-      bind:this={VideoElement}
       muted
       loop
       playsinline
@@ -32,10 +23,12 @@
       <p class="px-8 text-xl leading-relaxed text-gray-100 md:text-2xl">
         Help us in funding the expansion project for Masjid Al-Tawheed in Elk Grove.
       </p>
-      <Button
-        color="jade"
-        href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-        text="Donate Now" />
+      
+      <a
+          href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
+          class="rounded-lg border-2 border-jade bg-jade p-2 text-center text-base font-bold shadow-md transition duration-150 ease-in hover:-translate-y-1 hover:bg-jade-dark text-gray-100">
+          Donate Now
+        </a>
     </div>
   </div>
 </header>
