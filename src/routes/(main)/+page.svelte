@@ -51,7 +51,8 @@
       <p class="text-gray-900">
         Every prayer, smile, and shared meal in this expanded space will be a blessing. <span
           class="font-bold">No amount is too small</span
-        >, every dollar brings us one step closer to creating this sacred place for our community.
+        >, every dollar brings us one step closer to creating this sacred place for our community
+        right in the heart of Elk Grove.
       </p>
 
       <p class="text-gray-900">
@@ -66,10 +67,10 @@
       </div>
 
       <div
-        class="mt-12 flex flex-col space-x-0 space-y-6 md:flex-row md:items-center md:justify-center md:space-x-8 md:space-y-0">
+        class="mt-12 flex flex-col space-x-0 space-y-6 md:flex-row md:items-center md:justify-center md:space-x-4 lg:space-x-8 md:space-y-0">
         <a
           href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-          class="rounded-lg border-2 border-jade bg-jade p-2 text-center text-base font-bold text-gray-100 shadow-md transition duration-150 ease-in hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px] md:flex-1">
+          class="rounded-lg border-2 border-jade bg-jade p-2 text-center text-base font-bold text-gray-100 shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px] md:flex-1">
           Donate Now
         </a>
 
