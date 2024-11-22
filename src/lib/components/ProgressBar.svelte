@@ -37,7 +37,7 @@
 
 <div
   bind:this={progressBar}
-  class="mt-4 w-full overflow-hidden rounded-md bg-gray-200 shadow-md md:w-4/5">
+  class="my-4 w-full overflow-hidden rounded-md bg-gray-200 shadow-md md:w-4/5">
   <div
     class="h-3 bg-azure"
     role="progressbar"

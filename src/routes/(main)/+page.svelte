@@ -1,28 +1,30 @@
 <script lang="ts">
-  import type { PageData } from './$types';
-  let { data }: { data: PageData } = $props();
-
   import MasjidExpansion from '$lib/assets/tawheed/masjid1.webp';
-  import Button from '$lib/components/Button.svelte';
   import Container from '$lib/components/Container.svelte';
   import ImageGrid from '$lib/components/images/ImageGrid.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
+  import type { PageData } from './$types';
+
+  let { data }: { data: PageData } = $props();
 </script>
 
 <Container bgColorClass="bg-white">
-  <div class="mt-16 flex w-full flex-col items-center justify-center md:mt-24 lg:mt-32">
-    <h2 class="text-center text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
+  <section class="mt-12 md:mt-16 lg:mt-28">
+    <h2 class="text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
       Help Create a Thriving Muslim Community
     </h2>
+    <h3 class="mt-6 text-2xl font-medium text-gray-900 md:mt-12 md:text-3xl lg:text-4xl">
+      Your Contribution Can Make a Lasting Impact
+    </h3>
 
     <div class="grid grid-cols-1 gap-y-8 pt-8 md:grid-cols-2 md:gap-x-4 md:gap-y-0 lg:gap-x-8">
       <img
         class="rounded-lg object-contain shadow-md"
         src={MasjidExpansion}
-        alt="Proposed masjid expansion" />
+        alt="Render of the proposed masjid expansion" />
 
       <div
-        class="flex flex-col justify-start rounded-lg bg-gray-200 pt-4 shadow-md md:justify-center">
+        class="flex flex-col justify-start rounded-lg bg-gray-200 px-6 py-6 shadow-md md:justify-center">
         <h3 class="text-center font-arabic text-xl font-semibold text-gray-900 md:text-2xl">
           ‏مَنْ بَنَى مَسْجِدًا لِلَّهِ كَمَفْحَصِ قَطَاةٍ أَوْ أَصْغَرَ بَنَى اللَّهُ لَهُ بَيْتًا
           فِي الْجَنَّةِ
@@ -36,44 +38,54 @@
       </div>
     </div>
 
-    <div class="mt-8 flex w-full flex-col items-center gap-y-8 md:mt-16 md:w-3/4">
-      <p class="text-center text-base tracking-wide text-gray-900 md:text-xl">
+    <div class="w-full space-y-8 text-justify text-base md:text-lg">
+      <p class="mt-8 text-gray-900">
         The growth of our community has led to a need for a space that can accommodate all of our
         needs, be it spiritual, educational, communal, or even recreational. By investing in this
-        expansion, you're investing in a legacy of faith and kindness. Every prayer, smile, and
-        shared meal in this expanded space will be a blessing. No amount is too small, every dollar
-        brings us one step closer to creating this sacred place for our community.
+        expansion, you're investing in a <span class="font-bold">legacy of faith and kindness</span
+        >.
       </p>
 
-      <p class="text-center text-base font-semibold tracking-wide text-gray-900 md:text-xl">
+      <p class="text-gray-900">
+        Every prayer, smile, and shared meal in this expanded space will be a blessing. <span
+          class="font-bold">No amount is too small</span
+        >, every dollar brings us one step closer to creating this sacred place for our community.
+      </p>
+
+      <p class="text-gray-900">
         Let's unite to make Masjid Al-Tawheed a home for all. Together, we can provide a welcoming
-        sanctuary that will support our community's needs and inspire growth, connection, and
-        compassion. Your donation today can transform lives and build a stronger future.
+        sanctuary that will support our community's needs and <span class="font-bold"
+          >inspire growth, connection, and compassion</span
+        >. Your donation today can transform lives and build a stronger future.
       </p>
-    </div>
 
-    <div class="mt-12 flex w-full flex-col items-center justify-center md:mt-16">
-      <div class="mb-12 flex flex-row items-center justify-center gap-x-4 lg:gap-x-8">
-        <Button
-          color="jade"
-          href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-          text="Donate Now" />
-        <Button color="azure" href="https://www.masjidaltawheed.com/newmasjid/" text="Learn More" />
+      <div class="flex flex-col items-center">
+        <ProgressBar />
       </div>
 
-      <ProgressBar />
-    </div>
+      <div
+        class="mt-12 flex flex-col space-x-0 space-y-6 md:flex-row md:items-center md:justify-center md:space-x-8 md:space-y-0">
+        <a
+          href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
+          class="rounded-lg border-2 border-jade bg-jade p-2 text-center text-base font-bold text-gray-100 shadow-md transition duration-150 ease-in hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px] md:flex-1">
+          Donate Now
+        </a>
 
-    <div class="mt-12 flex flex-col gap-y-4 md:mt-16 md:gap-y-8">
-      <h2 class="text-center text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
-        Our Community
-      </h2>
-
-      <ImageGrid
-        images={data.images.map((image, index) => ({
-          src: image,
-          alt: data.descriptions[index]
-        }))} />
+        <a
+          href="/"
+          class="rounded-lg border-2 border-azure bg-azure p-2 text-center text-base font-bold text-gray-100 shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px] md:flex-1">
+          Construction Updates
+        </a>
+      </div>
     </div>
-  </div>
+  </section>
+</Container>
+
+<Container bgColorClass="bg-white">
+  <section class="mt-12 md:mt-16 lg:mt-28">
+    <h2 class="text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">Our Community</h2>
+
+    <ImageGrid
+      images={data.images.map((image, index) => ({ src: image, alt: data.descriptions[index] }))} />
+  </section>
 </Container>

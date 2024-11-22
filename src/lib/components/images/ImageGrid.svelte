@@ -7,7 +7,7 @@
   }
 </script>
 
-<div class="grid grid-cols-2 gap-2 md:grid-cols-3">
+<div class="grid grid-cols-2 gap-2 md:grid-cols-3 mt-6">
   {#each images as image}
     <div class="group relative cursor-pointer overflow-hidden rounded-lg shadow-lg">
       <img
