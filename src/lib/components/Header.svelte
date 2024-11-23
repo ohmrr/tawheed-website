@@ -21,7 +21,7 @@
   <div
     class="absolute inset-0 z-10 flex flex-col items-center justify-center space-y-4 bg-black bg-opacity-30">
     <div class="flex flex-col items-center justify-center space-y-4 text-center">
-      <h1 class="text-3xl font-bold text-gray-100 md:text-6xl">Fund Masjid Al-Tawheed</h1>
+      <h1 class="text-3xl font-extrabold text-gray-100 md:text-6xl">Fund Masjid Al-Tawheed</h1>
       <p class="px-8 text-xl leading-relaxed text-gray-100 md:text-2xl">
         Help us in funding the expansion project for Masjid Al-Tawheed in Elk Grove.
       </p>
