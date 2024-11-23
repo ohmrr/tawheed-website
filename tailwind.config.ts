@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        header: ['Poppins', 'sans-serif'],
-        sans: ['Open Sans', 'sans-serif'],
+        header: ['Lato', 'sans-serif'],
+        sans: ['Schibsted Grotesk', 'sans-serif'],
         arabic: ['Amiri', 'serif']
       },
       colors: {
