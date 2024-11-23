@@ -9,7 +9,7 @@
 
 <div class="mt-6 grid grid-cols-2 gap-2 md:grid-cols-3">
   {#each images as image}
-    <div class="group relative cursor-pointer overflow-hidden rounded-lg shadow-lg">
+    <div class="group relative cursor-pointer overflow-hidden rounded-md shadow-lg">
       <img
         src={image.src}
         alt={image.alt}
