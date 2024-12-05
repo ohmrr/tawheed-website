@@ -5,7 +5,7 @@
 <Container bgColorClass="bg-charcoal">
   <div class="mx-auto mt-12 py-8 md:mt-16">
     <div class="flex flex-col items-center justify-center">
-      <p class="text-center text-lg text-gray-100">
+      <p class="text-center text-lg text-white">
         {new Date().getFullYear()} &copy;
         <a
           href="https://www.masjidaltawheed.com/"
