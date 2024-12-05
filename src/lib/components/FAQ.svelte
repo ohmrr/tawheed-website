@@ -10,7 +10,7 @@
   }
 </script>
 
-<div class="mt-6 space-y-4">
+<div class="mt-6 space-y-6">
   {#each questions as { question, answer, href }, index}
     <div class="rounded-lg border">
       <button

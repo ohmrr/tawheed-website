@@ -2,7 +2,7 @@
   import type { Snippet } from 'svelte';
 
   let {
-    width = 1200,
+    width = 1024,
     bgColorClass,
     padding = 20,
     children
