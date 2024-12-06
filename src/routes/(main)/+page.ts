@@ -3,9 +3,11 @@ import type { PageLoad } from './$types';
 const imageModules: Record<string, string> = import.meta.glob(
   '$lib/assets/community/**/*.{jpg,jpeg,png,webp}',
   {
-    query: '?url',
-    import: 'default',
-    eager: true
+    query: {
+      enhanced: true,
+    },
+    eager: true,
+    import: "default"
   }
 );
 
