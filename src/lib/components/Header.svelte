@@ -1,6 +1,8 @@
 <script lang="ts">
-  import BannerVideo from '$lib/assets/tawheed/construction.mp4';
+  import BannerVideoMP4 from '$lib/assets/tawheed/construction.mp4';
+  import BannerVideoWEBM from '$lib/assets/tawheed/construction.webm';
   import BannerPoster from '$lib/assets/tawheed/construction-poster.jpg';
+
   import Navigation from './navbar/Navigation.svelte';
 </script>
 
@@ -9,7 +11,6 @@
   <div class="absolute inset-0">
     <video
       class="h-full w-full object-cover"
-      src={BannerVideo}
       poster={BannerPoster}
       preload="auto"
       width="1280"
@@ -18,7 +19,12 @@
       muted
       loop
       playsinline
-      tabindex="-1"></video>
+      tabindex="-1">
+      <source src={BannerVideoWEBM} type="video/webm" />
+      <source src={BannerVideoMP4} type="video/mp4" />
+
+      Your browser does not not support the video tag.
+    </video>
   </div>
 
   <div
