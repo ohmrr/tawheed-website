@@ -1,5 +1,6 @@
 <script lang="ts">
-  import BannerVideo from '$lib/assets/tawheed/masjid.mp4';
+  import BannerVideo from '$lib/assets/tawheed/construction.mp4';
+  import BannerPoster from '$lib/assets/tawheed/construction-poster.jpg';
   import Navigation from './navbar/Navigation.svelte';
 </script>
 
@@ -9,6 +10,8 @@
     <video
       class="h-full w-full object-cover"
       src={BannerVideo}
+      poster={BannerPoster}
+      preload="auto"
       width="1280"
       height="720"
       autoplay
