@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="w-full space-y-8 text-justify text-base md:text-lg">
+    <div class="space-y-8 text-justify text-base md:text-lg">
       <p class="mt-8 text-gray-900">
         The growth of our community has led to a need for a space that can accommodate all of our
         needs, be it spiritual, educational, communal, or even recreational. By investing in this
@@ -88,6 +88,30 @@
 
 <Container bgColorClass="bg-white">
   <section class="mt-12 md:mt-16 lg:mt-28">
+    <h2 class="text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
+      A Vision for Growth
+    </h2>
+
+    <h3 class="mt-6 text-2xl font-medium text-gray-900 md:mt-12 md:text-3xl lg:text-4xl">
+      Addressing our Growing Needs
+    </h3>
+
+    <div class="space-y-8 text-justify text-base md:text-lg">
+      <p class="mt-8 text-gray-900">
+        The New Masjid Project represents our commitment to creating a space that serves all the
+        needs of our growing community. As we continue to experience growth, our current facilities
+        can no longer keep up. Unfortunately, the existing masjid is overcrowded, and parking
+        hazards have become a persistent challenge. This project is essential for fostering a safe,
+        welcoming environment for all.
+      </p>
+
+      <p class="mt-8 text-gray-900"></p>
+    </div>
+  </section>
+</Container>
+
+<Container bgColorClass="bg-white">
+  <section class="mt-12 md:mt-16 lg:mt-28">
     <h2 class="text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">Our Community</h2>
 
     <ImageGrid
@@ -95,7 +119,7 @@
   </section>
 </Container>
 
-<Container>
+<Container bgColorClass="bg-white">
   <section class="mt-12 md:mt-16 lg:mt-28">
     <h2 class="text-3xl font-semibold text-gray-900 md:text-4xl lg:text-5xl">
       Frequently Asked Questions
