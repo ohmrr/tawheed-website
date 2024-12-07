@@ -2,9 +2,11 @@
   import MasjidExpansion from '$lib/assets/tawheed/masjid1.webp';
   import Container from '$lib/components/Container.svelte';
   import Faq from '$lib/components/FAQ.svelte';
+  import IconRow from '$lib/components/IconRow.svelte';
   import ImageGrid from '$lib/components/images/ImageGrid.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
   import { questions } from '$lib/utils/questions';
+  import { iconDescriptions } from '$lib/utils/iconDescriptions';
   import type { PageData } from './$types';
 
   let { data }: { data: PageData } = $props();
@@ -96,16 +98,16 @@
       Addressing our Growing Needs
     </h3>
 
-    <div class="space-y-8 text-justify text-base md:text-lg">
-      <p class="mt-8 text-gray-900">
-        The New Masjid Project represents our commitment to creating a space that serves all the
-        needs of our growing community. As we continue to experience growth, our current facilities
-        can no longer keep up. Unfortunately, the existing masjid is overcrowded, and parking
-        hazards have become a persistent challenge. This project is essential for fostering a safe,
-        welcoming environment for all.
-      </p>
+    <p class="mt-8 text-justify text-base text-gray-900 md:text-lg">
+      The New Masjid Project represents our commitment to creating a space that serves all the needs
+      of our growing community. As we continue to experience growth, our current facilities can no
+      longer keep up. Unfortunately, the existing masjid is overcrowded, and parking hazards have
+      become a persistent challenge. This project is essential for fostering a safe, welcoming
+      environment for all.
+    </p>
 
-      <p class="mt-8 text-gray-900"></p>
+    <div class="mt-12">
+      <IconRow {iconDescriptions} />
     </div>
   </section>
 </Container>
