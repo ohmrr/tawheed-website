@@ -15,7 +15,7 @@
     <div class="rounded-md border shadow-lg">
       <button
         type="button"
-        class="w-full rounded-t-md px-6 py-4 text-left text-base md:text-lg font-bold transition-colors duration-300 ease-in-out {openIndex ===
+        class="w-full rounded-t-md px-6 py-4 text-left text-base font-bold transition-colors duration-300 ease-in-out md:text-lg {openIndex ===
         index
           ? 'bg-jade text-white hover:bg-jade-dark'
           : 'bg-gray-200 text-gray-900 hover:bg-gray-300'}"
@@ -28,7 +28,7 @@
       {#if openIndex === index}
         <div
           id={`faq-answer-${index}`}
-          class="bg-white px-6 py-4 overflow-hidden"
+          class="overflow-hidden bg-white px-6 py-4"
           transition:slide={{ duration: 250 }}>
           {answer}
 
