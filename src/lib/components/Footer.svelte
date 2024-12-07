@@ -10,7 +10,7 @@
         <a
           href="https://www.masjidaltawheed.com/"
           class="underline underline-offset-2 transition duration-200 ease-in-out hover:text-gray-300"
-          >Masjid Al-Tawheed EGAAC</a
+          >Masjid Al-Tawheed EGACC</a
         >. All rights reserved.
       </p>
     </div>

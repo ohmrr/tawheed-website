@@ -6,10 +6,10 @@
 </script>
 
 <div class="flex flex-row flex-wrap justify-center gap-4">
-  {#each iconDescriptions as {icon, description} }
-    <div class="flex flex-1 flex-col items-center bg-gray-200 rounded-md shadow-lg p-5 w-48">
-      <Icon {icon} class="w-16 h-16 mb-4" />
-      <p class="font-bold text-center">
+  {#each iconDescriptions as { icon, description }}
+    <div class="flex w-48 flex-1 flex-col items-center rounded-md bg-gray-200 p-5 shadow-lg">
+      <Icon {icon} class="mb-4 h-16 w-16" />
+      <p class="text-center font-bold">
         {description}
       </p>
     </div>

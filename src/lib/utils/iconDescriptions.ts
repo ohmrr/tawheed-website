@@ -6,18 +6,18 @@ export interface IconDescription {
 export const iconDescriptions: IconDescription[] = [
   {
     icon: 'grommet-icons:group',
-    description: 'Overcrowded Facilities',
+    description: 'Overcrowded Facilities'
   },
   {
     icon: 'bi:sign-no-parking',
-    description: 'Parking Hazards',
+    description: 'Parking Hazards'
   },
   {
     icon: 'tabler:book-off',
-    description: 'Limited Resources',
+    description: 'Limited Resources'
   },
   {
     icon: 'lineicons:hand-stop',
-    description: 'Inability to Grow',
-  },
-]
+    description: 'Inability to Grow'
+  }
+];
