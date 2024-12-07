@@ -4,10 +4,10 @@ const imageModules: Record<string, string> = import.meta.glob(
   '$lib/assets/community/**/*.{jpg,jpeg,png,webp}',
   {
     query: {
-      enhanced: true,
+      enhanced: true
     },
     eager: true,
-    import: "default"
+    import: 'default'
   }
 );
 

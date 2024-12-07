@@ -12,7 +12,7 @@
     <video
       class="h-full w-full object-cover"
       poster={BannerPoster}
-      preload="auto"
+      preload="metadata"
       width="1280"
       height="720"
       autoplay

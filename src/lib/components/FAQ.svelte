@@ -29,7 +29,7 @@
         <div
           id={`faq-answer-${index}`}
           class="bg-white px-6 py-4"
-          transition:slide={{ duration: 300 }}>
+          transition:slide={{ duration: 250 }}>
           {answer}
 
           {#if href}

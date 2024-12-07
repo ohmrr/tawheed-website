@@ -23,6 +23,21 @@ export const questions: Question[] = [
     }
   },
   {
+    question: 'Are donations through Zelle accepted?',
+    answer:
+      'Yes, you can donate through Zelle for a quick and secure transfer. Be sure to add donations@masjidaltawheed.com as your Zelle recipient. Send us an email with your contact information and Zelle confirmation number so we can register you and send you a receipt. You can send all information to the email listed below.',
+    href: {
+      name: 'info@masjidaltawheed.com',
+      url: 'mailto:info@masjidaltawheed.com'
+    }
+  },
+  {
+    question: 'Can I sponsor a specific part of the masjid?',
+    answer:
+      "We are currently offering sponsorship for 130 parking spaces, each for $2,000. While the space won't be reserved specifically for you, it's an excellent opportunity to earn continuous rewards every time someone uses that space. Sponsoring a parking space helps support the masjid's development and serves as a source of blessings, insha'Allah. if you'd wish to sponsor a space, please contact us for more details."
+  },
+
+  {
     question: 'I have a question that was not answered in this FAQ. What can I do to learn more?',
     answer:
       'Please feel free to contact us with any of your questions or comments at the email below. We will try to get back to you as soon as possible.',
