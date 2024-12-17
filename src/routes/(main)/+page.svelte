@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Merch from '$lib/assets/fundraiser/merch.webp';
-  import SponsorParkingBanner from '$lib/assets/fundraiser/sponsor-parking-banner.jpeg';
-  import MasjidExpansion from '$lib/assets/tawheed/masjid1.webp';
+  import MerchHoodie from '$lib/assets/fundraiser/merch.webp';
+  import SponsorParkingBanner from '$lib/assets/fundraiser/sponsor-parking.jpg';
+  import MasjidRender from '$lib/assets/tawheed/masjid1.webp';
   import Container from '$lib/components/Container.svelte';
   import Faq from '$lib/components/FAQ.svelte';
   import HadithQuote from '$lib/components/HadithQuote.svelte';
@@ -30,7 +30,7 @@
     <div class="grid grid-cols-1 gap-y-8 pt-8 md:grid-cols-2 md:gap-x-4 md:gap-y-0 lg:gap-x-8">
       <img
         class="rounded-lg object-contain shadow-md"
-        src={MasjidExpansion}
+        src={MasjidRender}
         width="768"
         height="432"
         alt="Render of the proposed masjid expansion" />
@@ -115,47 +115,49 @@
       <IconRow {iconDescriptions} />
     </div>
 
-    <div class="mt-12 space-y-12">
-      <div class="flex flex-col gap-y-12 md:flex-row md:gap-x-8 md:gap-y-0">
-        <div class="flex flex-1 flex-col gap-y-6 md:items-center">
-          <h3 class="mt-6 text-2xl font-medium text-gray-900 md:mt-12 md:text-3xl lg:text-4xl">
-            Help Build Our Future
-          </h3>
+    <div class="flex flex-col gap-y-8 md:flex-row md:gap-x-8 md:gap-y-0">
+      <div class="flex flex-1 flex-col gap-y-6 md:items-center">
+        <h3 class="mt-8 text-2xl font-medium text-gray-900 md:mt-12 md:text-3xl lg:text-4xl">
+          Help Build Our Future
+        </h3>
 
-          <p class="-mt-4 text-gray-700">
-            Sponsor a parking space, get the reward every time it's used.
-          </p>
+        <p class="-mt-4 text-gray-700">
+          Sponsor a parking space, get the reward every time it's used.
+        </p>
 
-          <img
-            src={SponsorParkingBanner}
-            class="w-full rounded-lg shadow-md"
-            alt="Help us by sponsoring a parking space for $2,000"
-            loading="lazy"
-          />
+        <img
+          src={SponsorParkingBanner}
+          alt="Sponsor a parking space for $2,000, get the reward when someone uses it"
+          class="rounded-lg shadow-md"
+          loading="lazy" />
 
+        <div class="flex w-full justify-center">
           <a
             href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-            class="rounded-lg border-2 border-jade bg-jade p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px]">
+            class="rounded-lg border-2 border-jade bg-jade p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px] flex-1">
             Donate Now
           </a>
         </div>
+      </div>
 
-        <div class="flex flex-1 flex-col gap-y-6 md:items-center md:justify-center md:text-center">
-          <h3 class="mt-6 text-2xl font-medium text-gray-900 md:mt-12 md:text-3xl lg:text-4xl">
-            Wear Your Support
-          </h3>
-          <p class="-mt-4 text-gray-700">100% of our profits will go towards the construction.</p>
+      <div class="flex flex-1 flex-col gap-y-6 md:items-center">
+        <h3 class="mt-8 text-2xl font-medium text-gray-900 md:mt-12 md:text-3xl lg:text-4xl">
+          Wear Your Support
+        </h3>
 
-          <img
-            src={Merch}
-            class="w-full rounded-lg shadow-md"
-            alt="Help us by sponsoring a parking space for $2,000"
-            loading="lazy" />
+        <p class="-mt-4 text-gray-700">100% of the profit goes toward the construction.</p>
 
+        <img
+          src={MerchHoodie}
+          alt="Get Masjid Al-Tawheed merch, 100% of the profit goes towards the construction"
+          class="rounded-lg shadow-md"
+          loading="lazy" />
+
+        <div class="flex w-full justify-center">
           <a
             href="https://masjidaltawheed.printful.me/"
-            class="rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px]">
-            Visit our Merch Store
+            class="rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px] flex-1">
+            Merch Store
           </a>
         </div>
       </div>
