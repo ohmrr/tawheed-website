@@ -31,7 +31,7 @@
 
 <div class="mt-6 text-center">
   <p class="text-lg font-semibold" id="donation-progress">Phase 2 Donation Progress</p>
-  <p class="text-sm">${current.toLocaleString()} / ${max.toLocaleString()}</p>
+  <p class="text-sm pt-1">${current.toLocaleString()} / ${max.toLocaleString()}</p>
 </div>
 
 <div
