@@ -4,8 +4,6 @@
   import Navigation from '$lib/components/navbar/Navigation.svelte';
 </script>
 
-<Navigation />
-
 <Container bgColorClass="bg-white">
   <div class="mx-auto flex min-h-screen items-center justify-center">
     <div class="p-4"><p class="text-4xl font-bold">{$page.status} {$page.error?.message}</p></div>
