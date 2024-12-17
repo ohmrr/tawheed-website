@@ -37,7 +37,7 @@
 
       <a
         href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-        class="rounded-lg border-2 border-jade bg-jade px-5 md:px-8 py-2 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark">
+        class="rounded-lg border-2 border-jade bg-jade px-5 py-2 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:px-8">
         Donate Now
       </a>
     </div>

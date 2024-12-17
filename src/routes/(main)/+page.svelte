@@ -2,7 +2,7 @@
   import MasjidExpansion from '$lib/assets/tawheed/masjid1.webp';
   import Container from '$lib/components/Container.svelte';
   import Faq from '$lib/components/FAQ.svelte';
-  import IconRow from '$lib/components/IconRow.svelte';
+  import IconRow from '$lib/components/IconGrid.svelte';
   import ImageGrid from '$lib/components/images/ImageGrid.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
   import { iconDescriptions } from '$lib/utils/iconDescriptions';
@@ -53,9 +53,11 @@
       </div>
 
       <p class="text-gray-900">
-        As-salamu alaykum everyone, and welcome to the next chapter of Masjid Al-Tawheed through the <span class="font-bold">New Masjid Project</span>. We are currently on Phase 2 out of
-        4, with a goal to raise ${maxProgress.toLocaleString()}. With your help, inshAllah, we will be able to <span class="font-bold">overcome this
-        challenge</span> and continue on to the next phase.
+        As-salamu alaykum everyone, and welcome to the next chapter of Masjid Al-Tawheed through the <span
+          class="font-bold">New Masjid Project</span
+        >. We are currently on Phase 2 out of 4, with a goal to raise ${maxProgress.toLocaleString()}.
+        With your help, inshAllah, we will be able to
+        <span class="font-bold">overcome this challenge</span> and continue on to the next phase.
       </p>
 
       <p class="text-gray-900">
