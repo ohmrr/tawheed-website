@@ -3,8 +3,7 @@
   import { cubicInOut } from 'svelte/easing';
   import { tweened } from 'svelte/motion';
 
-  const current = 1_000_000;
-  const max = 1_700_000;
+  let { current, max }: { current: number, max: number } = $props();
   const progress = (current / max) * 100;
 
   const animatedProgress = tweened(0, { duration: 2000, easing: cubicInOut });
@@ -31,8 +30,8 @@
 </script>
 
 <div class="mt-6 text-center">
-  <p class="text-lg font-semibold" id="donation-progress">Donation Progress</p>
-  <p class="text-sm">${current.toLocaleString()} / ${max.toLocaleString()}</p>
+  <p class="text-lg font-semibold" id="donation-progress">Phase 2 Donation Progress</p>
+  <p class="text-sm pt-1">${current.toLocaleString()} / ${max.toLocaleString()}</p>
 </div>
 
 <div
