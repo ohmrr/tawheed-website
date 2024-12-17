@@ -142,7 +142,7 @@
 
         <div class="flex flex-1 flex-col gap-y-6 md:items-center md:justify-center md:text-center">
           <h3 class="mt-6 text-2xl font-medium text-gray-900 md:mt-12 md:text-3xl lg:text-4xl">
-            Support Us Through Our Merch
+            Wear Your Support
           </h3>
           <p class="-mt-4 text-gray-700">100% of our profits will go towards the construction.</p>
 
