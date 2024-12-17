@@ -6,6 +6,7 @@
   import Container from '$lib/components/Container.svelte';
   import Faq from '$lib/components/FAQ.svelte';
   import HadithQuote from '$lib/components/HadithQuote.svelte';
+  import Header from '$lib/components/Header.svelte';
   import IconRow from '$lib/components/IconGrid.svelte';
   import ImageGrid from '$lib/components/images/ImageGrid.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
@@ -18,6 +19,8 @@
   const currentProgress: number = 1_000_000;
   const maxProgress: number = 1_700_000;
 </script>
+
+<Header />
 
 <Container bgColorClass="bg-white">
   <section class="mt-12 md:mt-16 lg:mt-28">

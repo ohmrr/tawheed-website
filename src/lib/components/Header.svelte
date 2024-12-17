@@ -2,11 +2,8 @@
   import BannerVideoMP4 from '$lib/assets/tawheed/construction.mp4';
   import BannerVideoWEBM from '$lib/assets/tawheed/construction.webm';
   import BannerPoster from '$lib/assets/tawheed/construction-poster.jpg';
-
-  import Navigation from './navbar/Navigation.svelte';
 </script>
 
-<Navigation />
 <header class="relative flex h-[450px] w-full flex-col bg-charcoal md:h-[600px]">
   <div class="absolute inset-0">
     <video
