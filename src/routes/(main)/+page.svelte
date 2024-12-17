@@ -1,5 +1,6 @@
 <script lang="ts">
   import MerchHoodie from '$lib/assets/fundraiser/merch.webp';
+  import Phase2Banner from '$lib/assets/fundraiser/phase-2-banner.jpeg';
   import SponsorParkingBanner from '$lib/assets/fundraiser/sponsor-parking.jpg';
   import MasjidRender from '$lib/assets/tawheed/masjid1.webp';
   import Container from '$lib/components/Container.svelte';
@@ -14,7 +15,7 @@
 
   let { data }: { data: PageData } = $props();
 
-  const currentProgress: number = 1_100_000;
+  const currentProgress: number = 1_000_000;
   const maxProgress: number = 1_700_000;
 </script>
 
@@ -74,6 +75,16 @@
           >. Your donation today can transform lives and build a stronger future.
         </p>
       </div>
+
+      <div class="mt-8">
+        <img
+          src={Phase2Banner}
+          alt="Sponsor a parking space for $2,000, get the reward when someone uses it"
+          class="rounded-lg shadow-md"
+          width="1200"
+          height="675"
+          loading="lazy" />
+      </div>
     </div>
 
     <div
@@ -129,12 +140,14 @@
           src={SponsorParkingBanner}
           alt="Sponsor a parking space for $2,000, get the reward when someone uses it"
           class="rounded-lg shadow-md"
+          width="1500"
+          height="1500"
           loading="lazy" />
 
         <div class="flex w-full justify-center">
           <a
             href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-            class="rounded-lg border-2 border-jade bg-jade p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px] flex-1">
+            class="flex-1 rounded-lg border-2 border-jade bg-jade p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px]">
             Donate Now
           </a>
         </div>
@@ -151,12 +164,14 @@
           src={MerchHoodie}
           alt="Get Masjid Al-Tawheed merch, 100% of the profit goes towards the construction"
           class="rounded-lg shadow-md"
+          width="825"
+          height="825"
           loading="lazy" />
 
         <div class="flex w-full justify-center">
           <a
             href="https://masjidaltawheed.printful.me/"
-            class="rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px] flex-1">
+            class="flex-1 rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px]">
             Merch Store
           </a>
         </div>
