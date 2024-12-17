@@ -5,11 +5,14 @@
   import IconRow from '$lib/components/IconRow.svelte';
   import ImageGrid from '$lib/components/images/ImageGrid.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
-  import { questions } from '$lib/utils/questions';
   import { iconDescriptions } from '$lib/utils/iconDescriptions';
+  import { questions } from '$lib/utils/questions';
   import type { PageData } from './$types';
 
   let { data }: { data: PageData } = $props();
+
+  const currentProgress: number = 1_100_000;
+  const maxProgress: number = 1_700_000;
 </script>
 
 <Container bgColorClass="bg-white">
@@ -44,8 +47,18 @@
       </div>
     </div>
 
-    <div class="space-y-8 text-justify text-base md:text-lg">
-      <p class="mt-8 text-gray-900">
+    <div class="mt-12 space-y-8 text-justify text-base md:text-lg">
+      <div class="mt-8 flex flex-col items-center">
+        <ProgressBar current={currentProgress} max={maxProgress} />
+      </div>
+
+      <p class="text-gray-900">
+        As-salamu alaykum everyone, and welcome to the next chapter of Masjid Al-Tawheed through the <span class="font-bold">New Masjid Project</span>. We are currently on Phase 2 out of
+        4, with a goal to raise ${maxProgress.toLocaleString()}. With your help, inshAllah, we will be able to <span class="font-bold">overcome this
+        challenge</span> and continue on to the next phase.
+      </p>
+
+      <p class="text-gray-900">
         The growth of our community has led to a need for a space that can accommodate all of our
         needs, be it spiritual, educational, communal, or even recreational. By investing in this
         expansion, you're investing in a <span class="font-bold">legacy of faith and kindness</span
@@ -65,25 +78,21 @@
           >inspire growth, connection, and compassion</span
         >. Your donation today can transform lives and build a stronger future.
       </p>
+    </div>
 
-      <div class="flex flex-col items-center">
-        <ProgressBar />
-      </div>
+    <div
+      class="mt-12 flex flex-col space-x-0 space-y-6 md:flex-row md:items-center md:justify-center md:space-x-4 md:space-y-0 lg:space-x-8">
+      <a
+        href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
+        class="rounded-lg border-2 border-jade bg-jade p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px] md:flex-1">
+        Donate Now
+      </a>
 
-      <div
-        class="mt-12 flex flex-col space-x-0 space-y-6 md:flex-row md:items-center md:justify-center md:space-x-4 md:space-y-0 lg:space-x-8">
-        <a
-          href="https://checkout.square.site/merchant/MLJGAABQWSY7N/checkout/LMCROJTOGFCEPQJM5VAPH7VX"
-          class="rounded-lg border-2 border-jade bg-jade p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-jade-dark md:max-w-[200px] md:flex-1">
-          Donate Now
-        </a>
-
-        <a
-          href="https://www.masjidaltawheed.com/newmasjid/"
-          class="rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px] md:flex-1">
-          Construction Updates
-        </a>
-      </div>
+      <a
+        href="https://www.masjidaltawheed.com/newmasjid/"
+        class="rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px] md:flex-1">
+        Construction Updates
+      </a>
     </div>
   </section>
 </Container>
