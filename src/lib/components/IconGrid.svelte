@@ -9,7 +9,7 @@
   {#each iconDescriptions as { icon, description }}
     <div class="flex flex-col items-center rounded-md bg-gray-200 p-5 shadow-lg">
       <Icon {icon} class="mb-4 h-16 w-16" />
-      <p class="text-center font-bold">
+      <p class="text-center text-sm md:text-base font-bold">
         {description}
       </p>
     </div>
