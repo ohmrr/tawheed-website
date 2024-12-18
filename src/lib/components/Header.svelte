@@ -1,7 +1,6 @@
 <script lang="ts">
-  import BannerVideoMP4 from '$lib/assets/tawheed/construction.mp4';
-  import BannerVideoWEBM from '$lib/assets/tawheed/construction.webm';
   import BannerPoster from '$lib/assets/tawheed/construction-poster.jpg';
+  import BannerVideoMP4 from '$lib/assets/tawheed/construction.mp4';
 </script>
 
 <header class="relative flex h-[450px] w-full flex-col bg-charcoal md:h-[600px]">
@@ -9,6 +8,7 @@
     <video
       class="h-full w-full object-cover"
       poster={BannerPoster}
+      src={BannerVideoMP4}
       preload="metadata"
       width="1280"
       height="720"
@@ -17,10 +17,7 @@
       loop
       playsinline
       tabindex="-1">
-      <source src={BannerVideoWEBM} type="video/webm" />
-      <source src={BannerVideoMP4} type="video/mp4" />
-
-      Your browser does not not support the video tag.
+      Your browser does not support the video tag.
     </video>
   </div>
 
