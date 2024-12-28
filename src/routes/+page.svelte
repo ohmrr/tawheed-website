@@ -1,7 +1,7 @@
 <script lang="ts">
-  import MerchHoodie from '$lib/assets/fundraiser/merch.webp';
-  import Phase2Banner from '$lib/assets/fundraiser/phase-2-banner.jpeg';
-  import SponsorParkingBanner from '$lib/assets/fundraiser/sponsor-parking.jpg';
+  import MerchHoodie from '$lib/assets/fundraiser/fundtawheed-merch.webp';
+  import Phase2Banner from '$lib/assets/fundraiser/fundtawheed-phase-2.jpeg';
+  import SponsorParkingBanner from '$lib/assets/fundraiser/fundtawheed-sponsor-parking.jpg';
   import MasjidRender from '$lib/assets/tawheed/masjid1.webp';
   import Container from '$lib/components/Container.svelte';
   import Faq from '$lib/components/FAQ.svelte';
@@ -82,7 +82,7 @@
       <div class="mt-8">
         <img
           src={Phase2Banner}
-          alt="Sponsor a parking space for $2,000, get the reward when someone uses it"
+          alt="FundTawheed Phase 2 Construction Progress"
           class="rounded-lg shadow-md"
           width="1200"
           height="675"
