@@ -1,8 +1,8 @@
 <script lang="ts">
   import MasjidRender from '$lib/assets/tawheed/masjid2.jpg';
+  import Footer from '$lib/components/Footer.svelte';
   import Navigation from '$lib/components/navbar/Navigation.svelte';
   import '../app.css';
-  import Footer from '$lib/components/Footer.svelte';
 
   let { children } = $props();
 </script>

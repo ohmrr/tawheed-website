@@ -1,7 +1,6 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import Container from '$lib/components/Container.svelte';
-  import Navigation from '$lib/components/navbar/Navigation.svelte';
 </script>
 
 <Container bgColorClass="bg-white">

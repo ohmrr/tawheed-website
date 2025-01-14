@@ -100,6 +100,8 @@
 
       <a
         href="https://www.masjidaltawheed.com/newmasjid/"
+        target="_blank"
+        rel="noopener noreferrer"
         class="rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px] md:flex-1">
         Construction Updates
       </a>
@@ -174,6 +176,8 @@
         <div class="flex w-full justify-center">
           <a
             href="https://masjidaltawheed.printful.me/"
+            target="_blank"
+            rel="noopener noreferrer"
             class="flex-1 rounded-lg border-2 border-azure bg-azure p-3 text-center text-base font-bold text-white shadow-md transition duration-150 ease-in-out hover:-translate-y-1 hover:bg-azure-dark md:max-w-[200px]">
             Merch Store
           </a>
