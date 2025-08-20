@@ -16,8 +16,8 @@
 
   let { data }: { data: PageData } = $props();
 
-  const currentProgress: number = 1_000_000;
-  const maxProgress: number = 1_700_000;
+  const currentProgress: number = 1_630_000;
+  const maxProgress: number = 2_000_000;
 </script>
 
 <Header />
